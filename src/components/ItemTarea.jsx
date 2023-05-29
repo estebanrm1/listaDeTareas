@@ -1,8 +1,8 @@
+import { ListGroupItem } from "react-bootstrap";
+
 const ItemTarea = () => {
     return (
-        <div>
-            
-        </div>
+        <ListGroupItem></ListGroupItem>
     );
 };
 
