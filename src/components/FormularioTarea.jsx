@@ -12,7 +12,12 @@ const FormularioTarea = () => {
         e.preventDefault();
         setListaTareas([...listaTareas, tarea]);
         setTarea('');
-    }
+    };
+
+const borrarTarea = (nombreTarea) =>{
+    let copiaTareas = listaTareas.filter((itemTarea)=> itemTarea !== nombreTarea);
+    setListaTareas(copiaTareas);
+}
 
     return (
         <>
@@ -22,7 +27,7 @@ const FormularioTarea = () => {
                 <Button variant='primary' type='submit'>Agregar</Button>
             </Form.Group>
         </Form>
-        <ListaTareas propTareas={listaTareas}></ListaTareas>
+        <ListaTareas propTareas={listaTareas} borrarTarea={borrarTarea}></ListaTareas>
         </>
         
     );
