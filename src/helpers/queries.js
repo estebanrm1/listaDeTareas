@@ -22,7 +22,7 @@ export const borrarTarea= async(id)=>{
 }
 export const crearTarea = async (tarea) => {
     try {
-        const respuesta = await fetch(URL_tareas,{
+        const respuesta = await fetch(URL_tareas, {
             method:"POST",
             headers: {
                 "Content-type": "application/json"
