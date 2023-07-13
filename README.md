@@ -1,6 +1,6 @@
 # Trabajo Practico React en RollingCode📚💻
 
-En este proyecto practicamos lo que aprendimos hasta ahora sobre React
+En este proyecto practicamos lo que aprendimos hasta ahora sobre React y como conectar con el backend
 
 ## INICIALIZAR UN PROYECTO CON VITE/ COMPONENTES / useState, useEffect / almacenar datos en local storage / Ciclos de vida
 
@@ -12,7 +12,7 @@ En este proyecto practicamos lo que aprendimos hasta ahora sobre React
 - Hooks
 - useEffect
 - Ciclos de vida
-- Almacenar datos en local Storage
+- Conectar proyecto con API_TAREAS
 
 ## Como clonar el repositorio📝
 
